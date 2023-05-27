@@ -95,11 +95,10 @@ header{
 }
 .box:hover{
   box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
  
 }
-.Tvstick{
 
-}
 .foot{
   height: 200px;
   background-color:#5d5f63 ;
@@ -108,9 +107,24 @@ header{
   align-items: center;
   flex-direction: column;
 }
-a{
-  text-decoration: none;
-}
 .foot a{
 margin-left: 10px;
+text-decoration: none;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bouncing-button {
+  animation: bounce 1s infinite;
 }
