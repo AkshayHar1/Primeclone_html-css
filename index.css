@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+}
+header{
+  background-color: black;
+  
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover{
+  background-color:  rgb(62, 61, 61);
+  border-radius: 10px;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  max-width: 200px;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  z-index: 999;
+ 
+}
+
+.dropdown-menu a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(62, 61, 61);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.profile{
+  background-color:black  !important;
+}
+.bgimg1{
+ height: 551px;
+  background-image: linear-gradient( to right, #000 40%, transparent 58% ), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  /* background-position: center; */
+  position: relative;
+}
+
+.bgimg1 div{
+  position: absolute;
+  top: 20%;
+  color: #ccc;
+}
+.bgimg2{
+  height: 500px;
+  background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+  background-size: cover;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  
+}
+.rental{
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50%;
+}
+.fav{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.box {
+  
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  height: 100px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.box:hover{
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+ 
+}
+.Tvstick{
+
+}
+.foot{
+  height: 200px;
+  background-color:#5d5f63 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+}
+.foot a{
+margin-left: 10px;
+}
